@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+}
+
+.arkaplan {
+  background-color: black;
+  width: 350px;
+  height: 650px;
+  color: aliceblue;
+  margin: auto;
+  margin-top: 70px;
+  border-radius: 40px;
+  position: relative;
+}
+.container-bir {
+  /* display: flex;
+    justify-content: center;
+    row-gap:3rem ; */
+
+  bottom: 320px;
+  padding: 10px;
+  margin: 15px 90px 15px 5px;
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+/* .sıfır{
+    padding:20px;
+    padding-right: 100px;
+    border-radius: 60px;
+    background-color: #333333;
+    font-weight: 10px;
+   font-size: 30px ;
+   cursor: pointer;
+}
+.sıfır:hover{
+    background-color: #1A1A1A;
+}
+.nokta{
+    background-color: #333333;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+
+
+}
+.nokta:hover{
+    background-color: #1A1A1A;
+}
+
+
+
+.eşit{
+    background-color: #333333;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+.eşit:hover{
+    background-color: #1A1A1A;
+}
+
+.bir{
+    background-color: #333333;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.bir:hover{
+    background-color: #1A1A1A;
+}
+
+
+.dört{
+    background-color: #333333;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.dört:hover{
+    background-color: #1A1A1A;
+}
+
+.yedi{
+    background-color: #333333;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+
+}
+
+.yedi:hover{
+    background-color: #1A1A1A;
+} */
+.ac {
+  background-color: #a5a5a5;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 100%;
+  color: black;
+  cursor: pointer;
+}
+
+.ac:hover {
+  background-color: #535353;
+}
