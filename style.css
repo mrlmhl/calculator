@@ -19,15 +19,24 @@ body {
   position: relative;
 }
 .container-bir {
-  /* display: flex;
-    justify-content: center;
-    row-gap:3rem ; */
-
   bottom: 320px;
   padding: 10px;
   margin: 15px 90px 15px 5px;
   display: grid;
   grid-template-columns: 3fr 3fr 3fr 3fr;
+}
+
+.ac {
+  background-color: #a5a5a5;
+  padding: 15px;
+  margin: 5px;
+  border-radius: 100%;
+  color: black;
+  cursor: pointer;
+}
+
+.ac:hover {
+  background-color: #535353;
 }
 
 /* .sıfır{
@@ -104,15 +113,3 @@ body {
 .yedi:hover{
     background-color: #1A1A1A;
 } */
-.ac {
-  background-color: #a5a5a5;
-  padding: 15px;
-  margin: 5px;
-  border-radius: 100%;
-  color: black;
-  cursor: pointer;
-}
-
-.ac:hover {
-  background-color: #535353;
-}
