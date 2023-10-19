@@ -51,7 +51,6 @@ body {
   color: azure;
   font-size: 30px;
   font-weight: bold;
- 
   text-align: center;
 }
  
@@ -81,4 +80,5 @@ body {
 
 .sağ:hover{
   background-color: #79521E;
+  
 }
