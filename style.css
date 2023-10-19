@@ -6,26 +6,35 @@
 
 body {
   background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
 }
 
 .arkaplan {
   background-color: black;
   width: 350px;
-  height: 650px;
+  height: 600px;
+  padding: 10px;
   color: aliceblue;
   margin: auto;
   margin-top: 70px;
   border-radius: 40px;
   position: relative;
-  display: grid;
+  
+ 
+
+ 
+ 
   
 }
 .container-bir {
-  padding: 10px;
-  margin: 15px 90px 15px 5px;
+  height: 100%;
+  width: 100%;
   display: grid;
-  grid-template-columns:70px 70px 70px 70px ;
-  grid-template-rows: 70px 70px 70px 70px;
+  grid-template-columns:repeat(4, 1fr) ;
+  grid-template-rows: repeat(5);
   align-content: end;
   justify-content: center;
   
@@ -33,89 +42,42 @@ body {
 }
 
 .ac {
-  background-color: #a5a5a5;
-  padding: 15px;
+  background-color:#333333;
+  padding: 20px;
   margin: 5px;
   border-radius: 100%;
-  color: black;
   cursor: pointer;
+  color: azure;
+  font-size: 30px;
+  font-weight: bold;
+ 
+  text-align: center;
 }
-
+ 
 .ac:hover {
   background-color: #535353;
 }
 
-/* .sıfır{
-    padding:20px;
-    padding-right: 100px;
-    border-radius: 60px;
-    background-color: #333333;
-    font-weight: 10px;
-   font-size: 30px ;
-   cursor: pointer;
+.sıfır{ 
+  grid-column: 1 / span 2;
+  border-radius: 60px;
 }
-.sıfır:hover{
-    background-color: #1A1A1A;
-}
-.nokta{
-    background-color: #333333;
-    padding: 20px;
-    margin: 5px;
-    border-radius: 100%;
-    cursor: pointer;
 
-
+.ust{
+  background-color: #A5A5A5;
+  color: black;
 }
-.nokta:hover{
-    background-color: #1A1A1A;
+
+.ust:hover{
+  background-color: #535353;
+}
+  
+
+.sağ{
+  background-color:#F1A33C;
 }
 
 
-
-.eşit{
-    background-color: #333333;
-    padding: 20px;
-    margin: 5px;
-    border-radius: 100%;
-    cursor: pointer;
-
+.sağ:hover{
+  background-color: #79521E;
 }
-.eşit:hover{
-    background-color: #1A1A1A;
-}
-
-.bir{
-    background-color: #333333;
-    padding: 20px;
-    margin: 5px;
-    border-radius: 100%;
-    cursor: pointer;
-}
-.bir:hover{
-    background-color: #1A1A1A;
-}
-
-
-.dört{
-    background-color: #333333;
-    padding: 20px;
-    margin: 5px;
-    border-radius: 100%;
-    cursor: pointer;
-}
-.dört:hover{
-    background-color: #1A1A1A;
-}
-
-.yedi{
-    background-color: #333333;
-    padding: 20px;
-    margin: 5px;
-    border-radius: 100%;
-    cursor: pointer;
-
-}
-
-.yedi:hover{
-    background-color: #1A1A1A;
-} */
